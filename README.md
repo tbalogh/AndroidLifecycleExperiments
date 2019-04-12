@@ -6,7 +6,7 @@ Android Architecture Components introduce [Lifecycle-aware components](https://d
 that help us to live in peace and harmony with UI components whose lifecycle managed by the Android OS, such as Activities and Fragments.
 
 Android applications are commonly interested in these [Lifecycle events](https://developer.android.com/reference/android/arch/lifecycle/Lifecycle.Event) 
-so we can avoid common gotchas, such as updating the UI while the application is in the background.   
+so common gotchas can be avoided, such as updating the UI while the application is in the background.   
 
 The Activities and Fragments are implements the [LifecycleOwner](https://developer.android.com/reference/android/arch/lifecycle/LifecycleOwner) interface 
 so we can easily observe those lifecycle events.
