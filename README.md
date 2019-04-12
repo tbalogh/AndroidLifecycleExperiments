@@ -3,7 +3,7 @@
 This repository is a simple implementation of a lifecycle logger using the new [Android Architecture Components](https://developer.android.com/topic/libraries/architecture).
 
 Android Architecture Components introduce [Lifecycle-aware components](https://developer.android.com/topic/libraries/architecture/lifecycle)
-that helps to live in peace and harmony with UI components whose lifecycle managed by the Android OS, such as Activities and Fragments.
+that help us to live in peace and harmony with UI components whose lifecycle managed by the Android OS, such as Activities and Fragments.
 
 Android applications are commonly interested in these [Lifecycle events](https://developer.android.com/reference/android/arch/lifecycle/Lifecycle.Event) 
 so we can avoid common gotchas, such as updating the UI while the application is in the background.   
