@@ -8,8 +8,8 @@ that help us to live in peace and harmony with UI components whose lifecycle man
 Android applications are commonly interested in these [Lifecycle events](https://developer.android.com/reference/android/arch/lifecycle/Lifecycle.Event) 
 so common gotchas can be avoided, such as updating the UI while the application is in the background.   
 
-The Activities and Fragments are implements the [LifecycleOwner](https://developer.android.com/reference/android/arch/lifecycle/LifecycleOwner) interface 
-so we can easily observe those lifecycle events.
+The Activities and Fragments implement the [LifecycleOwner](https://developer.android.com/reference/android/arch/lifecycle/LifecycleOwner) interface 
+so applications can easily observe those lifecycle events.
 
 There are already built-in components, such as [LiveData](https://developer.android.com/topic/libraries/architecture/livedata),
 that exploit the benefits of these Lifecycle components.
